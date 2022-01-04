@@ -5,4 +5,17 @@ body {
 
 .main-header {
     display: flex;
+    align-items: center;
+    height: 65px;
+    padding: 20px;
+    background-color: #8cba66;
+    justify-content:  center;
+}
+
+.veggies-img {
+    height: 40px;
+    width: 40px;
+    margin-right: 20px;
+    margin-left: 20px
+
 }
