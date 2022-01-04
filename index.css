@@ -1,6 +1,7 @@
 
 body {
     font-family: 'Inter', sans-serif;
+    margin: 0
 }
 
 .main-header {
@@ -10,7 +11,7 @@ body {
     padding: 10px;
     background-color: #8cba66;
     justify-content:  center;
-    margin-top: 25px;
+    margin: 25px 0;
     border-radius: 5px;
 }
 
@@ -54,6 +55,7 @@ nav{
     display:flex;
     background-color: #445e2f;
     height:60px ;
+    margin: 0;
 }
 
 nav img{
