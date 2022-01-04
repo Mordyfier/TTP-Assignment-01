@@ -6,10 +6,12 @@ body {
 .main-header {
     display: flex;
     align-items: center;
-    height: 65px;
-    padding: 20px;
+    height: 50px;
+    padding: 10px;
     background-color: #8cba66;
     justify-content:  center;
+    margin-top: 25px;
+    border-radius: 5px;
 }
 
 .veggies-img {
@@ -18,4 +20,51 @@ body {
     margin-right: 20px;
     margin-left: 20px
 
+}
+
+.home-body-img {
+    height: 70px;
+    width: 70px;
+    margin-right: 20px;
+    margin-left: 10px;
+
+}
+
+.plate-img {
+    height: 55px;
+    width: 70px;
+    margin-right: 20px;
+    margin-left: 10px;
+
+}
+
+.home-section{
+    margin: 15px 0;
+    justify-content:  center;
+    align-items: center;
+    display: flex;
+    padding: 10px;
+}
+
+p {
+    color: #445e2f;
+}
+
+nav{
+    display:flex;
+    background-color: #445e2f;
+    height:60px ;
+}
+
+nav img{
+    width: 80px;
+    height: 80px;
+    margin-right:auto;
+    margin-left:10px;
+
+}
+
+nav h3{
+    margin-right: 20px;
+    color: orange;
 }
