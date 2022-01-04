@@ -2,3 +2,37 @@ body {
     margin: 0;
     font-family: 'Inter', sans-serif;
 }
+nav{
+    display:flex;
+    background-color: #445e2f;
+    height:80px;
+    align-items: center;
+    border-radius: 3px;
+    box-shadow: 1px 1px 5px gray;
+}
+nav img{
+    width: 100px;
+    height: 80px;
+    margin-right: 15px;
+    margin-left:10px;
+}
+nav h2 {
+    margin-right: auto;
+    color: wheat;
+}
+nav h3{
+    margin-right: 30px;
+    padding: 15px;
+    background-color: #445e2f;
+    border-radius: 5px;
+}
+nav h3:hover{
+    background-color: #445e7f;
+}
+.nav--link:hover {
+    color:aquamarine;
+}
+.nav--link {
+    color: wheat;
+    text-decoration: none;
+}
