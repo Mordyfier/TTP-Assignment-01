@@ -8,7 +8,7 @@ nav{
     height:80px;
     align-items: center;
     border-radius: 3px;
-    box-shadow: 1px 1px 5px gray;
+    box-shadow: 1px 1px 7px 3px gray;
 }
 nav img{
     width: 100px;
@@ -19,20 +19,27 @@ nav img{
 nav h2 {
     margin-right: auto;
     color: wheat;
+    font-weight: 500;
 }
 nav h3{
-    margin-right: 30px;
+    margin-right: 20px;
     padding: 15px;
     background-color: #445e2f;
     border-radius: 5px;
+    font-weight: 500;
 }
 nav h3:hover{
     background-color: #445e7f;
 }
+.nav--link{
+    color: orange;
+    text-decoration: none;
+}
+
 .nav--link:hover {
     color:aquamarine;
 }
-.nav--link {
+.nav--link-active {
     color: wheat;
     text-decoration: none;
 }
