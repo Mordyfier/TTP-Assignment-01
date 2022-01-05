@@ -14,7 +14,46 @@ nav img{
 
 }
 
-nav h3{
+nav h3 {
     margin-right: 20px;
     color: orange;
+}
+
+.underNav{
+    color: orange;
+    margin: 10px;
+    text-align: center;
+}
+
+main{
+    margin-left: 20%;
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.dishes{
+    margin: 10px;
+    height: 500px;
+    width: 400px;
+    background-color: #445e2f;
+}
+
+.meals{
+    width: 100%;
+    height: 100%;
+}
+
+.recipes{
+    position: relative;
+    bottom: 105%;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #445e2f;
+}
+
+.dishes:hover .recipes{
+    opacity:0.8;
 }
