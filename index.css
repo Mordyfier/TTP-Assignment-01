@@ -51,6 +51,10 @@ p {
     color: #445e2f;
 }
 
+footer {
+    text-align: center;
+}
+
 nav{
     margin: 0;
     display:flex;
