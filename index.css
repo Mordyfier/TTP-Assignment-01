@@ -1,22 +1,179 @@
-
-
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
 nav{
     display:flex;
     background-color: #445e2f;
-    height:60px ;
+    height:80px;
+    align-items: center;
+    border-radius: 3px;
+    box-shadow: 1px 1px 7px 3px gray;
 }
-
 nav img{
-    width: 80px;
+    width: 100px;
     height: 80px;
-    margin-right:auto;
+    margin-right: 10px;
     margin-left:10px;
+}
+nav h2 {
+    margin-right: auto;
+    color: wheat;
+    font-weight: 500;
+}
+nav h3{
+    margin-right: 20px;
+    padding: 15px;
+    background-color: #445e2f;
+    border-radius: 5px;
+    font-weight: 500;
+}
+nav h3:hover{
+    background-color: #445e7f;
+}
+.nav--link{
+    color: orange;
+    text-decoration: none;
+}
+.nav--link:hover {
+    color:aquamarine;
+}
+
+.nav--link-active {
+    color: wheat;
+}
+
+h3 {
+    font-weight: normal;
+}
+
+.main-header {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    padding: 10px;
+    background-color: #8cba66;
+    justify-content:  center;
+    margin: 25px 0;
+    border-radius: 5px;
+}
+
+.section-text p {
+    font-size: 22px;
+}
+
+.home-section{
+    margin: 15px 0;
+    width: 90%;
+    justify-content:  center;
+    align-items: center;
+    display: flex;
+    padding: 10px;
+}
+
+.home-section p {
+    color: #445e2f;
+}
+
+.veggies-img {
+    height: 40px;
+    width: 40px;
+    margin-right: 20px;
+    margin-left: 20px
 
 }
 
-nav h3 {
+.home-body-img {
+    height: 70px;
+    width: 70px;
     margin-right: 20px;
-    color: orange;
+    margin-left: 10px;
+
+}
+
+.plate-img {
+    height: 55px;
+    width: 70px;
+    margin-right: 20px;
+    margin-left: 10px;
+
+}
+
+.donation-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.donation-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 150px;
+    font-size: 21px;
+    list-style: circle;
+    font-weight: 300;
+}
+.donation-text p {
+    color: #445e2f;
+    max-width: 600px;
+    text-align: justify;
+}
+.donate-button {
+    width: 300px;
+    height: 60px;
+    background-color: #445e2f;
+    color: wheat;
+    font-size: 25px;
+    font-weight: 100;
+    border-radius: 7px;
+    border-style: none;
+}
+
+.donation-images-left {
+    margin-left: 50px;
+    max-width: 400px;
+}
+.donation-images-right {
+    margin-top: 50px;
+    max-width: 400px;
+}
+.don-img-money {
+    margin-top: 50px;
+    max-width: 400px;
+    margin-left: 30px;
+    border-radius: 7px;
+}
+.don-img-apples {
+    margin-top: -10px;
+    max-width: 400px;
+    border-radius: 7px;
+}
+.don-img-store {
+    margin-top: 170px;
+    margin-left: -30px;
+    max-height: 300px;
+    max-width: 400px;
+    border-radius: 7px;
+}
+.don-img-seller {
+    margin-top: -20px;
+    margin-left: -20px;
+    max-width: 400px;
+    border-radius: 7px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    background-color: #445e7f;
+    color: wheat;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+footer > p {
+    margin: 10px auto;
 }
 
 .underNav{
@@ -53,7 +210,6 @@ main{
     transition: .5s ease;
     background-color: #445e2f;
 }
-
 .dishes:hover .recipes{
     opacity:0.8;
 }
