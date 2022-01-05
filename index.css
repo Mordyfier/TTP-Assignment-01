@@ -43,8 +43,13 @@ h3 {
 
 }
 
+.section-text > p {
+    font-size: 22px;
+}
+
 .home-section{
     margin: 15px 0;
+    width: 90%;
     justify-content:  center;
     align-items: center;
     display: flex;
