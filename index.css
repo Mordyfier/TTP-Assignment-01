@@ -1,7 +1,46 @@
-
 body {
-    font-family: 'Inter', sans-serif;
     margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+nav{
+    display:flex;
+    background-color: #445e2f;
+    height:80px;
+    align-items: center;
+    border-radius: 3px;
+    box-shadow: 1px 1px 7px 3px gray;
+}
+nav img{
+    width: 100px;
+    height: 80px;
+    margin-right: 10px;
+    margin-left:10px;
+}
+nav h2 {
+    margin-right: auto;
+    color: wheat;
+    font-weight: 500;
+}
+nav h3{
+    margin-right: 20px;
+    padding: 15px;
+    background-color: #445e2f;
+    border-radius: 5px;
+    font-weight: 500;
+}
+nav h3:hover{
+    background-color: #445e7f;
+}
+.nav--link{
+    color: orange;
+    text-decoration: none;
+}
+.nav--link:hover {
+    color:aquamarine;
+}
+
+.nav--link-active {
+    color: wheat;
 }
 
 h3 {
@@ -60,42 +99,119 @@ h3 {
 
 }
 
-nav{
-    margin: 0;
-    display:flex;
-    background-color: #445e2f;
-    height:80px;
+.donation-main {
+    display: flex;
     align-items: center;
-    border-radius: 3px;
-    box-shadow: 1px 1px 5px gray;
+    justify-content: center;
 }
-nav img{
-    width: 100px;
-    height: 80px;
-    margin-left:10px;
+
+.donation-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 150px;
+    font-size: 21px;
+    list-style: circle;
+    font-weight: 300;
 }
-nav h2 {
-    margin-right: auto;
-    color: wheat;
-    font-weight: normal;
+.donation-text p {
+    color: #445e2f;
+    max-width: 600px;
+    text-align: justify;
 }
-nav h3{
-    margin-right: 30px;
-    padding: 15px;
+.donate-button {
+    width: 300px;
+    height: 60px;
     background-color: #445e2f;
-    border-radius: 5px;
-}
-nav h3:hover{
-    background-color: #445e7f;
-}
-.nav--link:hover {
-    color:aquamarine;
-}
-.nav--link {
     color: wheat;
-    text-decoration: none;
+    font-size: 25px;
+    font-weight: 100;
+    border-radius: 7px;
+    border-style: none;
+}
+
+.donation-images-left {
+    margin-left: 50px;
+    max-width: 400px;
+}
+.donation-images-right {
+    margin-top: 50px;
+    max-width: 400px;
+}
+.don-img-money {
+    margin-top: 50px;
+    max-width: 400px;
+    margin-left: 30px;
+    border-radius: 7px;
+}
+.don-img-apples {
+    margin-top: -10px;
+    max-width: 400px;
+    border-radius: 7px;
+}
+.don-img-store {
+    margin-top: 170px;
+    margin-left: -30px;
+    max-height: 300px;
+    max-width: 400px;
+    border-radius: 7px;
+}
+.don-img-seller {
+    margin-top: -20px;
+    margin-left: -20px;
+    max-width: 400px;
+    border-radius: 7px;
 }
 
 footer {
+    position: fixed;
+    bottom: 0;
+    background-color: #445e7f;
+    color: wheat;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+footer > p {
+    margin: 10px auto;
+}
+
+.underNav{
+    color: orange;
+    margin: 10px;
     text-align: center;
+}
+
+main{
+    margin-left: 20%;
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.dishes{
+    margin: 10px;
+    height: 500px;
+    width: 400px;
+    background-color: #445e2f;
+}
+
+.meals{
+    width: 100%;
+    height: 100%;
+}
+
+.recipes{
+    position: relative;
+    bottom: 105%;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #445e2f;
+    color: wheat;
+}
+
+.dishes:hover .recipes{
+    opacity:0.8;
 }
