@@ -46,30 +46,33 @@ nav h3:hover{
 
 .donation-main {
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-
 .donation-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin: 50px 150px;
     font-size: 21px;
     list-style: circle;
-    max-width: 600px;
     font-weight: 300;
 }
 .donation-text p {
     color: #445e2f;
+    max-width: 600px;
+    text-align: justify;
 }
-footer {
-    position: fixed;
-    bottom: 0;
-    background-color: #445e7f;
+.donate-button {
+    width: 300px;
+    height: 60px;
+    background-color: #445e2f;
     color: wheat;
-    width: 100%;
-    display: flex;
-    align-items: center;
-}
-footer > p {
-    margin: 10px auto;
+    font-size: 25px;
+    font-weight: 100;
+    border-radius: 7px;
+    border-style: none;
 }
 
 .donation-images-left {
@@ -81,20 +84,39 @@ footer > p {
     max-width: 400px;
 }
 .don-img-money {
-    margin-top: 100px;
-    max-width: 400px;
+    margin-top: 50px;
+    max-width: 450px;
+    margin-left: 30px;
+    border-radius: 7px;
 }
 .don-img-apples {
-    margin-top: 20px;
-    max-width: 400px;
+    margin-top: -10px;
+    max-width: 450px;
+    border-radius: 7px;
 }
 .don-img-store {
-    margin-top: 100px;
-    margin-left: -50px;
-    max-width: 400px;
+    margin-top: 170px;
+    margin-left: -30px;
+    max-height: 300px;
+    max-width: 450px;
+    border-radius: 7px;
 }
 .don-img-seller {
-    margin-top: 50px;
-    margin-left: -50px;
-    max-width: 400px;
+    margin-top: -20px;
+    margin-left: -20px;
+    max-width: 450px;
+    border-radius: 7px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    background-color: #445e7f;
+    color: wheat;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+footer > p {
+    margin: 10px auto;
 }
