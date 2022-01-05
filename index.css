@@ -19,6 +19,23 @@ h3 {
     border-radius: 5px;
 }
 
+.section-text p {
+    font-size: 22px;
+}
+
+.home-section{
+    margin: 15px 0;
+    width: 90%;
+    justify-content:  center;
+    align-items: center;
+    display: flex;
+    padding: 10px;
+}
+
+.home-section p {
+    color: #445e2f;
+}
+
 .veggies-img {
     height: 40px;
     width: 40px;
@@ -41,27 +58,6 @@ h3 {
     margin-right: 20px;
     margin-left: 10px;
 
-}
-
-.section-text > p {
-    font-size: 22px;
-}
-
-.home-section{
-    margin: 15px 0;
-    width: 90%;
-    justify-content:  center;
-    align-items: center;
-    display: flex;
-    padding: 10px;
-}
-
-p {
-    color: #445e2f;
-}
-
-footer {
-    text-align: center;
 }
 
 nav{
@@ -98,4 +94,8 @@ nav h3:hover{
 .nav--link {
     color: wheat;
     text-decoration: none;
+}
+
+footer {
+    text-align: center;
 }
