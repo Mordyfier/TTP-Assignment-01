@@ -1,1 +1,101 @@
 
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+}
+
+h3 {
+    font-weight: normal;
+}
+
+.main-header {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    padding: 10px;
+    background-color: #8cba66;
+    justify-content:  center;
+    margin: 25px 0;
+    border-radius: 5px;
+}
+
+.section-text p {
+    font-size: 22px;
+}
+
+.home-section{
+    margin: 15px 0;
+    width: 90%;
+    justify-content:  center;
+    align-items: center;
+    display: flex;
+    padding: 10px;
+}
+
+.home-section p {
+    color: #445e2f;
+}
+
+.veggies-img {
+    height: 40px;
+    width: 40px;
+    margin-right: 20px;
+    margin-left: 20px
+
+}
+
+.home-body-img {
+    height: 70px;
+    width: 70px;
+    margin-right: 20px;
+    margin-left: 10px;
+
+}
+
+.plate-img {
+    height: 55px;
+    width: 70px;
+    margin-right: 20px;
+    margin-left: 10px;
+
+}
+
+nav{
+    margin: 0;
+    display:flex;
+    background-color: #445e2f;
+    height:80px;
+    align-items: center;
+    border-radius: 3px;
+    box-shadow: 1px 1px 5px gray;
+}
+nav img{
+    width: 100px;
+    height: 80px;
+    margin-left:10px;
+}
+nav h2 {
+    margin-right: auto;
+    color: wheat;
+    font-weight: normal;
+}
+nav h3{
+    margin-right: 30px;
+    padding: 15px;
+    background-color: #445e2f;
+    border-radius: 5px;
+}
+nav h3:hover{
+    background-color: #445e7f;
+}
+.nav--link:hover {
+    color:aquamarine;
+}
+.nav--link {
+    color: wheat;
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+}
