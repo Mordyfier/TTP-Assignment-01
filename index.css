@@ -209,9 +209,7 @@ main{
     opacity: 0;
     transition: .5s ease;
     background-color: #445e2f;
-    color: wheat;
 }
-
 .dishes:hover .recipes{
     opacity:0.8;
 }
