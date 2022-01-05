@@ -41,6 +41,7 @@ nav h3:hover{
 
 .nav--link-active {
     color: wheat;
+    text-decoration: none;
 }
 
 h3 {
