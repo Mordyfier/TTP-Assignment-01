@@ -234,6 +234,11 @@ main{
     padding-left: 10px;
 }
 
+.recipeMain li{
+    font-size: 14px;
+    padding-right: 2px;
+}
+
 /* This is the div for the ingredients section of the images */
 .ingredients{
     color:orange;
