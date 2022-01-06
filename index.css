@@ -190,21 +190,24 @@ main{
     flex-wrap: wrap;
 }
 
+/* This is the div that holds each images */
 .dishes{
     margin: 10px;
-    height: 500px;
-    width: 400px;
+    height: 600px;
+    width: 500px;
     background-color: #445e2f;
 }
 
+/* This is the image of the food */
 .meals{
     width: 100%;
     height: 100%;
 }
 
+/* This is the div for the overlay hover message */
 .recipes{
     position: relative;
-    bottom: 105%;
+    bottom: 104%;
     height: 100%;
     width: 100%;
     opacity: 0;
@@ -212,5 +215,28 @@ main{
     background-color: #445e2f;
 }
 .dishes:hover .recipes{
-    opacity:0.8;
+    opacity:0.9;
+}
+
+/* This is the title for the food */
+.recipeTitle{
+    padding-top: 10px;
+    padding-left: 10px;
+    color: orange;
+    text-decoration: underline;
+}
+
+/* This is the div that holds the ingredient and instruction divs */
+.recipeMain{
+    padding-left: 10px;
+}
+
+/* This is the div for the ingredients section of the images */
+.ingredients{
+    color:orange;
+}
+
+/* This is the div for the instructions section */
+.instructions{
+   color:orange;
 }
