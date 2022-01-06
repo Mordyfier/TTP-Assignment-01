@@ -110,8 +110,8 @@ h3 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 50px 150px;
-    font-size: 21px;
+    margin: 20px 50px;
+    font-size: 18px;
     list-style: circle;
     font-weight: 300;
 }
@@ -120,7 +120,7 @@ h3 {
     max-width: 600px;
     text-align: justify;
 }
-.donate-button {
+#donate-button {
     width: 300px;
     height: 60px;
     background-color: #445e2f;
@@ -129,18 +129,19 @@ h3 {
     font-weight: 100;
     border-radius: 7px;
     border-style: none;
+    margin-bottom: 100px;
 }
 
 .donation-images-left {
-    margin-left: 50px;
     max-width: 400px;
+    position: relative;
 }
 .donation-images-right {
-    margin-top: 50px;
     max-width: 400px;
+    position: relative;
 }
 .don-img-money {
-    margin-top: 50px;
+    margin-top: -100px;
     max-width: 400px;
     margin-left: 30px;
     border-radius: 7px;
@@ -151,7 +152,6 @@ h3 {
     border-radius: 7px;
 }
 .don-img-store {
-    margin-top: 170px;
     margin-left: -30px;
     max-height: 300px;
     max-width: 400px;
