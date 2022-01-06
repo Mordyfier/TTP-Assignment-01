@@ -16,10 +16,13 @@ nav img{
     margin-right: 10px;
     margin-left:10px;
 }
-nav h2 {
+nav h2, .nav-title-link {
     margin-right: auto;
     color: wheat;
     font-weight: 500;
+}
+.nav-title-link {
+    text-decoration: none;
 }
 nav h3{
     margin-right: 20px;
@@ -41,6 +44,7 @@ nav h3:hover{
 
 .nav--link-active {
     color: wheat;
+    text-decoration: none;
 }
 
 h3 {
@@ -109,8 +113,8 @@ h3 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 50px 150px;
-    font-size: 21px;
+    margin: 20px 50px;
+    font-size: 18px;
     list-style: circle;
     font-weight: 300;
 }
@@ -119,7 +123,7 @@ h3 {
     max-width: 600px;
     text-align: justify;
 }
-.donate-button {
+#donate-button {
     width: 300px;
     height: 60px;
     background-color: #445e2f;
@@ -128,18 +132,19 @@ h3 {
     font-weight: 100;
     border-radius: 7px;
     border-style: none;
+    margin-bottom: 100px;
 }
 
 .donation-images-left {
-    margin-left: 50px;
     max-width: 400px;
+    position: relative;
 }
 .donation-images-right {
-    margin-top: 50px;
     max-width: 400px;
+    position: relative;
 }
 .don-img-money {
-    margin-top: 50px;
+    margin-top: -100px;
     max-width: 400px;
     margin-left: 30px;
     border-radius: 7px;
@@ -150,7 +155,6 @@ h3 {
     border-radius: 7px;
 }
 .don-img-store {
-    margin-top: 170px;
     margin-left: -30px;
     max-height: 300px;
     max-width: 400px;
@@ -183,7 +187,7 @@ footer > p {
 }
 
 main{
-    margin-left: 10%;
+    margin-left: 12vw;
     margin-top: 15px;
     display: flex;
     flex-wrap: wrap;
@@ -228,6 +232,11 @@ main{
 /* This is the div that holds the ingredient and instruction divs */
 .recipeMain{
     padding-left: 10px;
+}
+
+.recipeMain li{
+    font-size: 14px;
+    padding-right: 2px;
 }
 
 /* This is the div for the ingredients section of the images */
