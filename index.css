@@ -10,7 +10,7 @@ nav{
     border-radius: 3px;
     box-shadow: 1px 1px 7px 3px gray;
 }
-nav img{
+nav img, .nav-image-link{
     width: 100px;
     height: 80px;
     margin-right: 10px;
@@ -196,7 +196,7 @@ main{
 /* This is the div that holds each images */
 .dishes{
     margin: 10px;
-    height: 600px;
+    height: 610px;
     width: 500px;
     background-color: #445e2f;
 }
@@ -232,6 +232,11 @@ main{
 /* This is the div that holds the ingredient and instruction divs */
 .recipeMain{
     padding-left: 10px;
+}
+
+.recipeMain li{
+    font-size: 14px;
+    padding-right: 2px;
 }
 
 /* This is the div for the ingredients section of the images */
