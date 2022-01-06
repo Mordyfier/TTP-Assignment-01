@@ -16,10 +16,13 @@ nav img{
     margin-right: 10px;
     margin-left:10px;
 }
-nav h2 {
+nav h2, .nav-title-link {
     margin-right: auto;
     color: wheat;
     font-weight: 500;
+}
+.nav-title-link {
+    text-decoration: none;
 }
 nav h3{
     margin-right: 20px;
